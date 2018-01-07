@@ -15,5 +15,6 @@
     "serve-favicon": "~2.4.5"
     ,"mysql2": "*"
     ,"moment":"^2.20.1"
+    ,"bluebird":"*"
   }
 }
