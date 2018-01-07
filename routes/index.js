@@ -1,5 +1,4 @@
 var express = require('express');
-const mysql = require('promise-mysql');
 const DbConnector = require('./modules/dbConnector.js');
 const connector = new DbConnector();
 const coins = ['BTC', 'ETH', 'DASH', 'LTC', 'ETC', 'XRP', 'BCH', 'XMR', 'ZEC', 'QTUM', 'BTG', 'EOS']
