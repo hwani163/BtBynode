@@ -28,7 +28,6 @@ router.get('/:coin', function(req, res, next) {
 router.get('/Cnt/:coin', function(req, res, next) {
   let paramCoin = coingParamisGoodValue(req.params.coin);
   (async function () {
-
       let query = "SELECT DT,PRICE FROM "+paramCoin+"_PRICE WHERE DT > DT-86400000;";
       const result = await connector.selectQuery(query);
       let tmparr = new Array();
